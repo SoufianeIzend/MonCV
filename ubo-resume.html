@@ -10,8 +10,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!--[if It IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-    <link   rel="stylesheet" href="css/resume.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/resume.css">
+    <script src="resumeJs.js"></script>
 
 
 </head>
@@ -31,7 +32,8 @@
     <section>
         <div class="inside-section">
             <article style="font-size: larger;margin-top: 34px;">
-                Etudiant en développement logiciel. Rigoureux, persévérant et dynamique pour participer à la meilleure production de l'entreprise.
+                Etudiant en développement logiciel. Rigoureux, persévérant et dynamique pour participer à la meilleure
+                production de l'entreprise.
             </article>
             <div>
                 <img class="image" src="souf.jpg">
@@ -60,8 +62,31 @@
                 <p>24</p>
             </div>
         </div>
+
     </section>
 
+    <section>
+        <div class="formation">
+            <h1>Formations:</h1>
+            <div class="contact-flex" style="padding-left: 105px;">
+                <span class="material-icons" style="cursor: pointer;" onclick="showDiv('details')">add_box</span>
+                <p>Baccalauréat 2014</p>
+            </div>
+            <div class="hidden-details" id="details">
+                <p style="margin: 0px;">Mention: Bien</p>
+                <p style="margin: 0px;">Ecole: Tarik ibn ziad</p>
+            </div>
+            <div class="contact-flex" style="padding-left: 105px;">
+                <span class="material-icons" style="cursor: pointer;" onclick="showDiv('details2')">add_box</span>
+                <p>Dîplome d'ingénieur 2019</p>
+            </div>
+            <div class="hidden-details" id="details2">
+                <p style="margin: 0px;">Mention: Bien</p>
+                <p style="margin: 0px;">Ecole: Tarik ibn ziad</p>
+            </div>
+
+        </div>
+    </section>
 
 
     <section>

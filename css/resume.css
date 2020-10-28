@@ -134,7 +134,9 @@ section > div,article {
     background-color: grey;
 }
 
-
+.hidden-details{
+    display: none;
+}
 .image {
     width: 158px;
     height: 183px;
