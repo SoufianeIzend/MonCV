@@ -88,6 +88,10 @@ section > div,article {
     display:flex;
     flex-flow: row wrap;
     margin-bottom: 10px;
+    cursor: default;
+}
+.comp:hover .coupontooltip{
+    display: block;
 }
 .comp p{
     flex: 0 0 34%;
@@ -136,6 +140,8 @@ section > div,article {
 
 .hidden-details{
     display: none;
+    margin-top: -43px;
+    z-index: -1;
 }
 .image {
     width: 158px;
@@ -160,6 +166,7 @@ section > div,article {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    z-index: 1;
 }
 .contact{
     padding-left: 20px;
@@ -177,8 +184,6 @@ section > div,article {
 .coupontooltip {
     background: #333333;
     color: white;
-    margin-left: 102px;
-    margin-top: 30px;
     padding: 10px;
     position: absolute;
     z-index: 1000;
