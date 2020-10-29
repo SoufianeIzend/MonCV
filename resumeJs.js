@@ -8,11 +8,11 @@ function showDiv(variable) {
         x.style.display = "block";
         animate({
             duration: 1000,
-            timing: function(timeFraction) {
-                return timeFraction*50;
+            timing: function (timeFraction) {
+                return timeFraction * 50;
             },
-            draw: function(progress) {
-                x.style.marginTop = -50 +(Math.floor(progress )) + 'px' ;
+            draw: function (progress) {
+                x.style.marginTop = -50 + (Math.floor(progress)) + 'px';
             }
         });
 
@@ -39,8 +39,9 @@ window.addEventListener("load", function () {
 var tooltip = document.querySelectorAll('.coupontooltip');
 
 document.addEventListener('mousemove', fn, false);
+
 function fn(e) {
-    for (var i=tooltip.length; i--;) {
+    for (var i = tooltip.length; i--;) {
         tooltip[i].style.left = e.pageX + 'px';
         tooltip[i].style.top = e.pageY + 'px';
     }

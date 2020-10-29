@@ -101,6 +101,7 @@ section > div,article {
     border-radius: 5px;
     background-color: grey;
     border-bottom: 1px ridge grey;
+    padding-top: 10px;
 }
 .barre{
     display: block;
